@@ -4,5 +4,25 @@
     <string name="app_name">Emotions</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="answer">Answer</string>
+    <string name="since">Since the previous signal I</string>
+    <string name="happy">Happy</string>
+    <string name="relaxed">Relaxed</string>
+    <string name="angry">Angry</string>
+    <string name="stressed">Stressed</string>
+    <string name="anxious">Anxious</string> 
+    <string name="depressed">Despressed</string>
+    <string name="accept">have allowed or accepted my feelings (acceptance)</string>
+    <string name="reprise">have changed the way I think about what caused my feelings (reappraisal)</string>
+    <string name="critisim">criticised myself for my feelings (self-criticism)</string>
+    <string name="rumination">couldn’t stop thinking about my feelings (rumination)</string>
+    <string name="sharing">have talked about my feelings with others (social sharing)</string>
+    <string name="expsup">have avoided expressing my emotions (expression suppression)</string>
+    <string name="distraction">have engaged in activities to distract myself from my feelings (distraction)</string>
+    <string name="problem">have come up with ideas to fix or change the problem that caused my feelings (problem-solving)</string>
+    <string name="felsup">have pushed my feelings down or put them out of my mind (feeling suppression)</string>
+    <string name="wantp">have wanted my pleasant feelings to…</string>
+    <string name="wantu">have wanted my unpleasant feelings to…</string>
+    <string name="wantc">have wanted to control my feelings so that I can achieve some other goal</string>
 </resources>

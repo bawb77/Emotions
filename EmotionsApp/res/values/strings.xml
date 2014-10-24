@@ -25,4 +25,6 @@
     <string name="wantp">have wanted my pleasant feelings to…</string>
     <string name="wantu">have wanted my unpleasant feelings to…</string>
     <string name="wantc">have wanted to control my feelings so that I can achieve some other goal</string>
+    <string name="welcome">Welcome to Emotions</string>
+    <string name="welcome2">Touch Answer when ready to begin</string>
 </resources>

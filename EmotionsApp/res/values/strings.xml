@@ -13,6 +13,7 @@
     <string name="stressed">Stressed</string>
     <string name="anxious">Anxious</string> 
     <string name="depressed">Despressed</string>
+    <string name="moment">At the Moment I</string>
     <string name="accept">have allowed or accepted my feelings (acceptance)</string>
     <string name="reprise">have changed the way I think about what caused my feelings (reappraisal)</string>
     <string name="critisim">criticised myself for my feelings (self-criticism)</string>
@@ -27,4 +28,23 @@
     <string name="wantc">have wanted to control my feelings so that I can achieve some other goal</string>
     <string name="welcome">Welcome to Emotions</string>
     <string name="welcome2">Touch Answer when ready to begin</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string-array name="choices">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
 </resources>

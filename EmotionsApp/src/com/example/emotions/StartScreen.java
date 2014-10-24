@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class StartScreen extends Activity {
 
@@ -14,40 +16,21 @@ public class StartScreen extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start_screen);
 	}
-	//Toast.makeText(getBaseContext(), "Thanks for the Visa", Toast.LENGTH_LONG).show();
-	public void start()
+	//Toast.makeText(getBaseContext(),"" , Toast.LENGTH_LONG).show();
+	public void start(View v)
 	{
-		AlertDialog builder = new AlertDialog.Builder(StartScreen.this).create();
+		AlertDialog.Builder builder = new AlertDialog.Builder(StartScreen.this);
 
-    	builder.setTitle("");
-    	builder.setButton(AlertDialog.BUTTON_POSITIVE, "", new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialog, int which) {
-				
-			}
-		});
-    	builder.setButton(AlertDialog.BUTTON_NEGATIVE, "", new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialog, int which) {
-				
-			}
-		});
-    	builder.setButton(AlertDialog.BUTTON_NEUTRAL, "", new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialog, int which) {
-				
-				AlertDialog builder2 = new AlertDialog.Builder(StartScreen.this).create();
-		    	builder2.setTitle("");
-		    
-		    	builder2.setButton(AlertDialog.BUTTON_POSITIVE, "", new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface dialog, int which) {
-				
-					}
-				});
-		    	builder2.show();
-			}
-    	});
+    	builder.setTitle(R.string.since);
+    	builder.setItems(R.array.choices , new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int choice) {
+            	
+            }
+        });
+    	
+    	builder.create();
+		builder.show();
+		
     }
 	
 

@@ -6,14 +6,16 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_start_screen">StartScreen</string>
     <string name="answer">Answer</string>
-    <string name="since">Since the previous signal I</string>
+    
+    <string name="moment">At the Moment I Am</string>
     <string name="happy">Happy</string>
     <string name="relaxed">Relaxed</string>
     <string name="angry">Angry</string>
     <string name="stressed">Stressed</string>
     <string name="anxious">Anxious</string> 
     <string name="depressed">Despressed</string>
-    <string name="moment">At the Moment I</string>
+    
+    <string name="since">Since the previous signal I</string>
     <string name="accept">have allowed or accepted my feelings (acceptance)</string>
     <string name="reprise">have changed the way I think about what caused my feelings (reappraisal)</string>
     <string name="critisim">criticised myself for my feelings (self-criticism)</string>
@@ -23,9 +25,11 @@
     <string name="distraction">have engaged in activities to distract myself from my feelings (distraction)</string>
     <string name="problem">have come up with ideas to fix or change the problem that caused my feelings (problem-solving)</string>
     <string name="felsup">have pushed my feelings down or put them out of my mind (feeling suppression)</string>
+    
     <string name="wantp">have wanted my pleasant feelings to…</string>
     <string name="wantu">have wanted my unpleasant feelings to…</string>
     <string name="wantc">have wanted to control my feelings so that I can achieve some other goal</string>
+    
     <string name="welcome">Welcome to Emotions</string>
     <string name="welcome2">Touch Answer when ready to begin</string>
     <string name="one">1</string>
@@ -45,6 +49,18 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+    </string-array>
+    <string-array name="choicesTen">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
     </string-array>
     
 </resources>

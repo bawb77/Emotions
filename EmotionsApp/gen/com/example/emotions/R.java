@@ -10,6 +10,7 @@ package com.example.emotions;
 public final class R {
     public static final class array {
         public static final int choices=0x7f060000;
+        public static final int choicesTen=0x7f060001;
     }
     public static final class attr {
     }
@@ -28,16 +29,17 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090009;
+        public static final int action_settings=0x7f09000a;
         public static final int alertText=0x7f090000;
-        public static final int answerButton=0x7f090001;
-        public static final int ch0=0x7f090003;
-        public static final int ch1=0x7f090004;
-        public static final int ch2=0x7f090005;
-        public static final int ch3=0x7f090006;
-        public static final int ch4=0x7f090007;
-        public static final int ch5=0x7f090008;
-        public static final int textView2=0x7f090002;
+        public static final int answerButton=0x7f090002;
+        public static final int button1=0x7f090001;
+        public static final int ch0=0x7f090004;
+        public static final int ch1=0x7f090005;
+        public static final int ch2=0x7f090006;
+        public static final int ch3=0x7f090007;
+        public static final int ch4=0x7f090008;
+        public static final int ch5=0x7f090009;
+        public static final int textView2=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -65,7 +67,7 @@ public final class R {
         public static final int four=0x7f05001e;
         public static final int happy=0x7f050006;
         public static final int hello_world=0x7f050001;
-        public static final int moment=0x7f05000c;
+        public static final int moment=0x7f050005;
         public static final int nine=0x7f050023;
         public static final int one=0x7f05001b;
         public static final int problem=0x7f050014;
@@ -74,7 +76,7 @@ public final class R {
         public static final int rumination=0x7f050010;
         public static final int seven=0x7f050021;
         public static final int sharing=0x7f050011;
-        public static final int since=0x7f050005;
+        public static final int since=0x7f05000c;
         public static final int six=0x7f050020;
         public static final int stressed=0x7f050009;
         public static final int three=0x7f05001d;

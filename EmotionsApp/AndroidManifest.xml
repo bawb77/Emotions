@@ -25,7 +25,7 @@
         </activity>
         <activity
             android:name=".StartScreen"
-            android:label="@string/title_activity_start_screen" >
+            android:label="@string/title_activity_start_screen" android:screenOrientation="landscape">
         </activity>
     </application>
 

@@ -44,28 +44,28 @@ public class SqlLiteYouMeanIt extends SQLiteOpenHelper{
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		String CREATE_RESULTS_TABLE = "Create Table" + TABLE_RESULTS + "(" +
-				P_KEY + "INTEGER PRIMARY KEY AUTOINCREMENT" +
-				MOM1 + "INTEGER," +
-				MOM2 + "INTEGER," +
-				MOM3 + "INTEGER," +
-				MOM4 + "INTEGER," +
-				MOM5 + "INTEGER," +
-				MOM0 + "INTEGER," +
-				SF0 + "INTEGER," +
-				SF1 + "INTEGER," +
-				SF2 + "INTEGER," +
-				SF3 + "INTEGER," +
-				SF4 + "INTEGER," +
-				SF5 + "INTEGER," +
-				SF6 + "INTEGER," +
-				SF7 + "INTEGER," + 
-				SF8 + "INTEGER," +
-				SF9 + "INTEGER," +
-				ST0 + "INTEGER," +
-				ST1 + "INTEGER," +
-				ST2 + "INTEGER," +
-				DATI + "INTEGER," + ")";
+		String CREATE_RESULTS_TABLE = "CREATE TABLE " + TABLE_RESULTS + "(" +
+				P_KEY + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+				MOM1 + " INTEGER," +
+				MOM2 + " INTEGER," +
+				MOM3 + " INTEGER," +
+				MOM4 + " INTEGER," +
+				MOM5 + " INTEGER," +
+				MOM0 + " INTEGER," +
+				SF0 + " INTEGER," +
+				SF1 + " INTEGER," +
+				SF2 + " INTEGER," +
+				SF3 + " INTEGER," +
+				SF4 + " INTEGER," +
+				SF5 + " INTEGER," +
+				SF6 + " INTEGER," +
+				SF7 + " INTEGER," + 
+				SF8 + " INTEGER," +
+				SF9 + " INTEGER," +
+				ST0 + " INTEGER," +
+				ST1 + " INTEGER," +
+				ST2 + " INTEGER," +
+				DATI + " INTEGER" + ")";
 		db.execSQL(CREATE_RESULTS_TABLE);
 	}
 
@@ -82,12 +82,12 @@ public class SqlLiteYouMeanIt extends SQLiteOpenHelper{
 		
 		values.put(DAY, EL.day);
 		values.put(INTERVAL, EL.Interval);
+		values.put(MOM0, EL.mom[0]);
 		values.put(MOM1, EL.mom[1]);
 		values.put(MOM2, EL.mom[2]);
 		values.put(MOM3, EL.mom[3]);
 		values.put(MOM4, EL.mom[4]);
 		values.put(MOM5, EL.mom[5]);
-		values.put(MOM0, EL.mom[0]);
 		values.put(SF0, EL.sf[0]);
 		values.put(SF1, EL.sf[1]);
 		values.put(SF2, EL.sf[2]);
@@ -97,7 +97,6 @@ public class SqlLiteYouMeanIt extends SQLiteOpenHelper{
 		values.put(SF6, EL.sf[6]);
 		values.put(SF7, EL.sf[7]);
 		values.put(SF8, EL.sf[8]);
-		values.put(SF9, EL.sf[9]);
 		values.put(ST0, EL.st[0]);
 		values.put(ST1, EL.st[1]);
 		values.put(ST2, EL.st[2]);

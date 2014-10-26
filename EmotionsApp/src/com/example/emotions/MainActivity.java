@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -19,15 +20,16 @@ public class MainActivity extends Activity {
     {
     	startActivity(new Intent(v.getContext(), StartScreen.class));
     }
-
-
+    public void comingSoon(View v)
+    {
+    	Toast.makeText(getBaseContext(),"This Feature coming soon" , Toast.LENGTH_LONG).show();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

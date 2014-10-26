@@ -14,7 +14,7 @@ public class EmoLog {
 		
 		mom = new int[6];
 		sf = new int[9];
-		st = new int[2];
+		st = new int[3];
 		
 	}
 }

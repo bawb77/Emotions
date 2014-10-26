@@ -6,27 +6,23 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class StartScreen extends Activity {
+
 	ArrayList<EmoLog> currentLog = new ArrayList<EmoLog>();
 	EmoLog EL;
 	int forMomCount;
 	int forFiveCount;
 	int forTenCount;
-	boolean a;
-	boolean b;
-	boolean c;
-	boolean d;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start_screen);
+		
 	};
 	public void start(View v)
 	{

@@ -8,8 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SqlLiteYouMeanIt extends SQLiteOpenHelper{
 	private static final int DATABASE_VERSION = 2;
 	private static final String DATABASE_NAME = "EmoDB";
-	private static final String TABLE_RESULTS = "Results";
-	
+	private static final String TABLE_RESULTS = "Results";	
 	private static final String P_KEY = "id";
 	private static final String DAY = "day";
 	private static final String INTERVAL = "interval";
@@ -33,10 +32,6 @@ public class SqlLiteYouMeanIt extends SQLiteOpenHelper{
 	private static final String ST1 = "st1";
 	private static final String ST2 = "st2";
 	private static final String DATI = "DateTime";
-	
-	private static final String[] COLM = {P_KEY,MOM1,MOM2,MOM3,MOM4,MOM5,MOM0,SF0,SF1,SF2,SF3,SF4,SF5 ,SF6 ,SF7, SF8 ,SF9 ,ST0 ,ST1, ST2,DATI};
-	
-	
 	public SqlLiteYouMeanIt(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
 		// TODO Auto-generated constructor stub

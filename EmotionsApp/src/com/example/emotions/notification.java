@@ -17,6 +17,7 @@ public class notification extends BroadcastReceiver {
 		// TODO Auto-generated method stub
 	if(now.hour < 17)
 	{
+		//constructor
 		Log.d("ALC","Notif");
 		NotificationCompat.Builder mBuilder =
 	        new NotificationCompat.Builder(context)
@@ -25,7 +26,7 @@ public class notification extends BroadcastReceiver {
 	        .setContentText("Don't Worry, be Happy");
 	
 	
-	// Creates an explicit intent for an Activity in your app
+	// Creates an explicit intent for StartScreen
 	Intent resultIntent = new Intent(context, StartScreen.class);
 	
 	PendingIntent resultPendingIntent =
@@ -34,9 +35,9 @@ public class notification extends BroadcastReceiver {
 	mBuilder.setContentIntent(resultPendingIntent);
 	NotificationManager mNotificationManager =
 	    (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-	// mId allows you to update the notification later on.
-	
-	int mId = now.hour;
+	int day = now.monthDay;
+	int hour = now.hour;
+	int mId = day + hour;
 	mNotificationManager.notify(mId, mBuilder.build());
 	}
 	else

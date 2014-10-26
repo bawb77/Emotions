@@ -36,7 +36,7 @@
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:onClick="comingSoon"
+        android:onClick="interval"
         android:text="@string/sInt" />
 
     <Button

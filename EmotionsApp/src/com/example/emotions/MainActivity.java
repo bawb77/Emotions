@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
  		// create alarm
  		long temp = 1000 * 60 * i;
  		alarmMgr.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),temp,alarmIntent);
- 		Log.d("ALC","main start");
+ 		//Log.d("ALC","main start");
     }
     public void temp(View v)
     {

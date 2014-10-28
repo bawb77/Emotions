@@ -50,7 +50,7 @@ public class StartScreen extends Activity {
 	}
 	public void moments(int i, final View v)
 	{
-		//creat string array out of string resource for titles
+		//create string array out of string resource for titles
 		String momStr[] = {getResources().getString(R.string.happy)
 		, getResources().getString(R.string.relaxed)
 	    , getResources().getString(R.string.angry)
